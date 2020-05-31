@@ -1,0 +1,36 @@
+body {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    fonte-size: 20px;
+    text-align: center;
+}
+
+p {
+    fonte-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.social {
+    display: inline;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    padding: 25px;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+}
