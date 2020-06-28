@@ -43,21 +43,29 @@ header {
     width: 100%;
     height: 100vh;
     background-color: #f08080;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-info {
     max-width: 32%;
-    margin: 0 auto;
-    padding-top: 260px;
+}
+
+.container {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .grid {
     display: grid;
-    margin: 0 auto;
-}
-
-.grid_template {
     grid-template-columns: 350px 350px 350px;
+    gap: 20px;
 }
 
 .icon {
