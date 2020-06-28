@@ -55,7 +55,7 @@ header {
 
 .container {
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -66,6 +66,13 @@ header {
     display: grid;
     grid-template-columns: 350px 350px 350px;
     gap: 20px;
+}
+
+.contato_ {
+    display: grid;
+    grid-template-columns: 350px 350px;
+    gap: 20px;
+    background-color: #f08080;
 }
 
 .icon {
