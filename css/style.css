@@ -1,8 +1,8 @@
-* {
+/* * {
     -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
-}
+} */
 
 body {
     margin: 0;
@@ -49,6 +49,15 @@ header {
     max-width: 32%;
     margin: 0 auto;
     padding-top: 260px;
+}
+
+.grid {
+    display: grid;
+    margin: 0 auto;
+}
+
+.grid_template {
+    grid-template-columns: 350px 350px 350px;
 }
 
 .icon {
