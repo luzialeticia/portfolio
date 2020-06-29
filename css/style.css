@@ -53,7 +53,14 @@ header {
 
 .media {
     float: left;
-    margin: 0 auto;
+}
+
+._media1 {
+    margin-right: 1.66%;
+}
+
+._media2 {
+    margin-left: 1.66%;
 }
 
 .contato_ {
