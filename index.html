@@ -108,19 +108,20 @@
         <div class="contato"> <!--Direita-->
             <h4 class="contato_margin">Vamos conversar!</h4>
             
-            <div class="form contato_margin">
+            <div class="_form contato_margin">
                 <form name="contact" action="https://formspree.io/xlepwodg" method="POST">
-                    <div class="nome">
+                    <div class="_nome">
                         <input type="text" name="name" placeholder="Nome" required>
                     </div>
-                    <div class="email">
+                    <div class="_email">
                         <input type="email" name="email" placeholder="E-mail" required>
                     </div>
-                    <div class="tel">
+                    <div class="_tel">
                         <input type="text" name="telefone" placeholder="Contato" required>
                     </div>
-                    <div class="msg">
-                        <textarea name="msg" rows="3"></textarea>
+                    <div class="_msg">
+                        <label for="msg">O que você deseja?</label>
+                        <textarea id="msg" name="msg" rows="3"></textarea>
                     </div>
                     <div class="enviar">
                         <input type="submit" value="Enviar">
