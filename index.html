@@ -108,7 +108,13 @@
         <div class="contato"> <!--Direita-->
             <h4 class="contato_h4">Vamos conversar!</h4>
             
-            <!--Formulário de contato-->
+            <form name="contact" action="https://formspree.io/xlepwodg" method="POST">
+                <input type="text" name="name" placeholder="Nome" required>
+                <input type="email" name="email" placeholder="E-mail" required>
+                <input type="text" name="telefone" placeholder="Contato" required>
+                <textarea name="msg" rows="3"></textarea>
+                <input type="submit" value="Enviar">
+            </form name="contact">
 
             <ul>    
                 <li>
