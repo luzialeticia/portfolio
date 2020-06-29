@@ -64,17 +64,27 @@ header {
     margin-left: 1.66%;
 }
 
-.contato_ {
+._contato {
     float: left;
     background-color: #f08080;
 }
 
 .sobre {
     width: 40%;
+    padding-right: 5%;
+    padding-left: 10%;
+    text-align: left;
 }
 
 .contato {
     width: 60%;
+    padding-right: 10%;
+    padding-left: 5%;
+    text-align: right;
+}
+
+.contato_h4 {
+    margin-right: 5.3%;
 }
 
 .icon {
