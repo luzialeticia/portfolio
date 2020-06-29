@@ -65,7 +65,13 @@ header {
 .grid {
     display: grid;
     grid-template-columns: 420px 315px;
-    gap: 20px;
+    gap: 50px;
+}
+
+iframe {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .contato_ {
