@@ -100,6 +100,19 @@ input[type=text], [type=email] {
     text-indent: 8px;
 }
 
+textarea {
+    width: 70%;
+    height: 100px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    text-indent: 8px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
 ::-webkit-input-placeholder {
     font-size: 15px;
 }
@@ -116,7 +129,7 @@ input[type=text], [type=email] {
     font-size: 15px;
 }
 
-._nome, ._email, ._tel {
+._nome, ._email, ._tel, ._msg {
     margin-bottom: 15px;
 }
 
