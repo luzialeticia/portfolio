@@ -106,10 +106,18 @@ input[type=text], [type=email] {
 }
 
 input[type=submit] {
-    width: 30%;
-    height: 50px;
+    width: 85px;
+    height: 42px;
     border: 0 solid rgba(0, 0, 0, 0);
     background-color:white;
+    border-radius: 3px;
+}
+
+input[type=submit]:hover {
+    width: 85px;
+    height: 42px;
+    border: 0 solid rgba(0, 0, 0, 0);
+    background-color:#eca9a9;
     border-radius: 3px;
 }
 
