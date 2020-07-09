@@ -13,8 +13,6 @@ body {
     text-align: center;
 }
 
-
-
 .navbar {
     position: fixed;
     left: 0;
@@ -22,9 +20,10 @@ body {
     width: 100%;
     padding: 5px 0;
     /*text-align: center;*/
-    font-size: 18px;
+    font-size: 15px;
+    text-transform: uppercase;
     letter-spacing: .22rem;
-    word-spacing: 1rem;
+    word-spacing: 1.3rem;
     background-color: #fff;
 }
 
@@ -80,6 +79,24 @@ a {
     max-width: 32%;
 }
 
+.what_am_i {
+    margin: 0 auto;
+    height: 350px;
+    background-color: #474e5d;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.6rem;
+    word-spacing: .15rem;
+    display: flex;
+    color: #fff;
+}
+
+._texto {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 .media {
     float: left;
 }
@@ -94,7 +111,7 @@ a {
 
 ._contato {
     float: left;
-    background-color: #f08080;
+    background-color: #1abc9c;
 }
 
 .sobre {
