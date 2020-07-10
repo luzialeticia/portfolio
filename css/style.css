@@ -104,14 +104,33 @@ a {
 }
 
 ._media1 {
-    margin-right: 1.66%;
+    margin-right: 3%;
 }
 
 ._media2 {
-    margin-left: 1.66%;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
-._contato {
+._media3 {
+    margin-left: 3%;
+}
+
+.footer {
+    margin: 0 auto;
+    height: 200px;
+    background-color: #474e5d;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.6rem;
+    word-spacing: .15rem;
+    display: flex;
+    color: #fff;
+}
+
+
+/* ._contato {
     float: left;
     background-color: #1abc9c;
 }
@@ -137,63 +156,6 @@ a {
 .icon {
     width: 25px;
     height: 25px;
-}
-
-input[type=text], [type=email] {
-    width: 70%;
-    height: 35px;
-    border: 1px solid #fff;
-    border-radius: 2px;
-    text-indent: 8px;
-}
-
-input[type=submit] {
-    width: 85px;
-    height: 42px;
-    border: 0 solid rgba(0, 0, 0, 0);
-    background-color:white;
-    border-radius: 3px;
-}
-
-input[type=submit]:hover {
-    width: 85px;
-    height: 42px;
-    border: 0 solid rgba(0, 0, 0, 0);
-    background-color:#eca9a9;
-    border-radius: 3px;
-}
-
-textarea {
-    width: 70%;
-    height: 100px;
-    border: 1px solid #fff;
-    border-radius: 2px;
-    text-indent: 8px;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-::-webkit-input-placeholder {
-    font-size: 15px;
-}
-
-::-moz-placeholder {
-    font-size: 15px;
-}
-
-:-moz-placeholder {
-    font-size: 15px;
-}
-
-:-ms-input-placeholder {
-    font-size: 15px;
-}
-
-._nome, ._email, ._tel, ._msg {
-    margin-bottom: 15px;
 }
 
 /* .grid {
