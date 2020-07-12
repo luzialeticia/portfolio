@@ -2,7 +2,6 @@
     -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
-          font-size: 100%;
 }
 
 body {
@@ -88,7 +87,7 @@ a {
 
 .what_am_i {
     margin: 0 auto;
-    height: 350px;
+    height: 400px;
     background-color: #474e5d;
     text-align: center;
     align-items: center;
@@ -104,27 +103,31 @@ a {
     margin-right: 5%;
 }
 
+.where-find {
+    margin: 0 auto;
+    padding: 10% 0;
+    width: 100%;
+    height: 100vh;
+    display: center;
+    justify-content: center;
+    align-items: center;
+    
+    /*line-height: 1.6rem;
+    word-spacing: .15rem;*/
+}
+
 ._trabalhos {
-    width: 80%;
+    display: flex;
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
     justify-content: space-between;
+    align-items: center;
 }
 
 .media {
     float: left;
 }
-
-/*._media1 {
-    margin-right: 3%;
-}
-
-._media2 {
-    margin-left: 3%;
-    margin-right: 3%;
-}
-
-._media3 {
-    margin-left: 3%;
-}*/
 
 .footer {
     margin: 0 auto;
@@ -138,41 +141,3 @@ a {
     display: flex;
     color: #fff;
 }
-
-
-/* ._contato {
-    float: left;
-    background-color: #1abc9c;
-}
-
-.sobre {
-    width: 40%;
-    padding-right: 5%;
-    padding-left: 10%;
-    text-align: left;
-}
-
-.contato {
-    width: 60%;
-    padding-right: 10%;
-    padding-left: 5%;
-    text-align: right;
-}
-
-.contato_margin {
-    margin-right: 5.3%;
-}
-
-.icon {
-    width: 25px;
-    height: 25px;
-}
-
-/* .grid {
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 420px 315px;
-    gap: 50px;
-    justify-content: center;
-    align-items: center;
-} */
