@@ -17,7 +17,7 @@ body {
 }
 
 h1, h2, h3, h4 {
-    font-weight: 300;
+    font-weight: 500;
     text-transform: uppercase;
     white-space: nowrap;
 }
@@ -32,6 +32,7 @@ h2 {
 
 h4 {
     font-size: 1.2em;
+    font-weight: 400;
 }
 
 p {
@@ -45,6 +46,11 @@ a {
 
 a:hover {
     color: #337ab7;
+}
+
+/* BACKGROUNDS */
+.what_, .footer {
+    background-color: #474e5d;
 }
 
 /* TAMANHO DAS IAMGENS */
@@ -114,8 +120,6 @@ header {
 /* WHAT */
 .what_ {
     height: 400px;
-    background-color: #474e5d;
-    color: #fff;
 }
 
 .what-info {
@@ -143,8 +147,6 @@ header {
 
 .footer {
     height: 200px;
-    background-color: #474e5d;
     line-height: 1.6rem;
     word-spacing: .15rem;
-    color: #fff;
 }
