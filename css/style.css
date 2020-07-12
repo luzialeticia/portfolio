@@ -4,21 +4,68 @@
           box-sizing: border-box;
 }
 
+/* TEXTO */
 body {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', Helvetica, sans-serif;
     font-size: 16px;
     text-align: center;
+    line-height: 1.6rem;
+    word-spacing: .12rem;
 }
 
+h1, h2, h3, h4 {
+    white-space: nowrap;
+}
+
+h1 {
+    font-size: 1.75em;
+}
+
+h2 {
+    font-size: 1.4em;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+p {
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* TAMANHO DAS IAMGENS */
+img {
+    width: 300px; 
+    height: 200px;
+}
+
+/* MARGEM, ALINHAMENTO E DISPOSIÇÃO DOS ELEMENTOS */
+.center, .container, .what_, .where-find, ._trabalhos, .footer {
+    margin: 0 auto;
+}
+
+.container, .what_, .where-find, .footer {
+    justify-content: center;
+    align-items: center;
+}
+
+.container, .what_, ._trabalhos, .footer {
+    display: flex;
+}
+
+/* NAVBAR */
 .navbar {
     position: fixed;
     left: 0;
     top: 0;
     width: 100%;
     padding: 5px 0;
-    /*text-align: center;*/
     font-size: 15px;
     text-transform: uppercase;
     letter-spacing: .22rem;
@@ -28,7 +75,6 @@ body {
 
 .center {
     max-width: 1100px;
-    margin: 0 auto;
     padding: 0;
 }
 
@@ -43,84 +89,41 @@ li {
     display: inline-block;
 }
 
+/* HEADER */
 header {
     background-color: #1abc9c;
 }
 
-h1 {
-    font-size: 1.75em;
-    text-align: center;
-    white-space: nowrap;
-}
-
-h2 {
-    font-size: 1.4em;
-    white-space: nowrap;
-}
-
-h4 {
-    font-size: 1.2em;
-    white-space: nowrap;
-}
-
-p {
-    font-size: 1em;
-}
-
-a {
-    text-decoration: none;
-}
-
 .container {
-    margin: 0 auto;
     width: 100%;
     height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
 }
 
 .header-info {
     max-width: 32%;
 }
 
-.what_am_i {
-    margin: 0 auto;
+/* WHAT */
+.what_ {
     height: 400px;
     background-color: #474e5d;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    line-height: 1.6rem;
-    word-spacing: .15rem;
-    display: flex;
     color: #fff;
 }
 
-._texto {
-    margin-left: 5%;
-    margin-right: 5%;
+.what-info {
+    max-width: 80%;
 }
 
+/* WHERE */
 .where-find {
-    margin: 0 auto;
     padding: 10% 0;
     width: 100%;
     height: 100vh;
     display: center;
-    justify-content: center;
-    align-items: center;
-    
-    /*line-height: 1.6rem;
-    word-spacing: .15rem;*/
 }
 
 ._trabalhos {
-    display: flex;
     max-width: 80%;
-    margin: 0 auto;
-    text-align: center;
     justify-content: space-between;
     align-items: center;
 }
@@ -130,14 +133,9 @@ a {
 }
 
 .footer {
-    margin: 0 auto;
     height: 200px;
     background-color: #474e5d;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
     line-height: 1.6rem;
     word-spacing: .15rem;
-    display: flex;
     color: #fff;
 }
